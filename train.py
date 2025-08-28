@@ -53,7 +53,6 @@ no_au = {"SN002": "/root/autodl-tmp/database/DISFA/SN002/5.jpg",
 
 
 def process_func(example):
-
     input_ids, attention_mask, labels = [], [], []
     conversation = example["conversations"]
     input_content = conversation[0]["value"]
